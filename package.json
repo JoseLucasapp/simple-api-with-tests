@@ -1,0 +1,22 @@
+{
+  "name": "simple-api-with-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JoseLucasapp/simple-api-with-tests.git",
+  "author": "José Lucas <josluc2016@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "test": "jest --watchAll --verbose"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "jest": "^28.1.0",
+    "supertest": "^6.2.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.5.0",
+    "nodemon": "^2.0.16"
+  }
+}
